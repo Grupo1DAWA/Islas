@@ -1,3 +1,4 @@
-body{
-    background-image: url(../FondoPrinc/fondopre.jpg) no-repeat;
+.fondo{
+    background-image: url(/foncomi/fon.jpg) no-repeat;
+    overflow: hidden;
 }
