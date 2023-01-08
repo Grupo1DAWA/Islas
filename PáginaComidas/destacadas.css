@@ -1,3 +1,9 @@
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
 .fondo{
     background-image: url(/foncomi/fon.jpg) no-repeat;
     overflow: hidden;
@@ -8,4 +14,82 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: -1;
+}
+.headbar{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(248, 238, 99, 0.397);
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.pie{
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(248, 238, 99, 0.397);
+    width: 100vw;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+}
+.tenerife{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 14vh;
+    left: 44vh;
+}
+.grancan{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 14vh;
+    left: 57vh;
+}
+.gomera{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 14vh;
+    left: 70vh;
+}
+.hierro{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 14vh;
+    left: 83vh;
+}
+.palmas{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 14vh;
+    left: 96vh;
+}
+.lanzarote{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 52vh;
+    left: 96vh;
+}
+.fuerteventura{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: rgba(248, 238, 99, 0.555);
+    top: 52vh;
+    left: 109vh;
 }
