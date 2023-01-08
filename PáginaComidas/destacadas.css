@@ -1,9 +1,3 @@
-p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: x-large;
-}
 .fondo{
     background-image: url(/foncomi/fon.jpg) no-repeat;
     overflow: hidden;
@@ -24,9 +18,20 @@ p{
     overflow: hidden;
     background-color: rgba(248, 238, 99, 0.397);
     width: 100vw;
-    height: 100px;
+    height: 110px;
     top: 0;
     left: 0;
+}
+h1{
+    color: white;
+}
+.htmlbody1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 250px;
+    float: left;
 }
 .pie{
     position: absolute;
@@ -39,57 +44,84 @@ p{
 }
 .tenerife{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 14vh;
-    left: 44vh;
+}
+.imgtenerife{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/tenerife.jpeg) no-repeat;
 }
 .grancan{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 14vh;
-    left: 57vh;
+    margin-left: 320px;
 }
-.gomera{
-    position: absolute;
-    width: 100px;
-    height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 14vh;
-    left: 70vh;
+.imggrancanaria{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/grancanaria.jpeg) no-repeat;
 }
-.hierro{
+.lapalma{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 14vh;
-    left: 83vh;
+    margin-left: 640px;
 }
-.palmas{
-    position: absolute;
-    width: 100px;
-    height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 14vh;
-    left: 96vh;
+.imglapalma{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/lapalma.jpeg) no-repeat;
 }
 .lanzarote{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 52vh;
-    left: 96vh;
+    margin-left: 960px;
+    }
+.imglanzarote{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/lanzarote.jpeg) no-repeat;
+}
+.htmlbody2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: 470px;
+    margin-left: 160px;
+    float: left;
 }
 .fuerteventura{
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 200px;
-    background-color: rgba(248, 238, 99, 0.555);
-    top: 52vh;
-    left: 109vh;
+    }
+.imgfuerteventura{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/fuerteventura.jpeg) no-repeat;
+}
+.lagomera{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-left: 320px;
+    }
+.imglagomera{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/lagomera.jpeg) no-repeat;
+}
+.elhierro{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-left: 640px;
+    }
+.imgelhierro{
+    width: 300px;
+    height: 300px;
+    background-image: url(/imgislas/elhierro.jpeg) no-repeat;
 }
