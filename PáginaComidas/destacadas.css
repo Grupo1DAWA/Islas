@@ -1,14 +1,16 @@
-.fondo{
-    background-image: url(/foncomi/fon.jpg) no-repeat;
+body{
+    background-image: url(foncomi/fon.jpg);
+    background-repeat:no-repeat;
     overflow: hidden;
+    background-size: cover;
 }
-.fondito{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+.principal{
+    color: white;
+    font-size: x-large;
+}
+img{
+    width: 120px;
+    height: 120px;
 }
 .headbar{
     color: white;
@@ -24,6 +26,13 @@
 }
 h1{
     color: white;
+    text-shadow: 0px 7px 9px rgba(0,0,0,0.91);
+    font-size: 20px;
+}
+h3{
+    color: white;
+    text-shadow: 0px 7px 9px rgba(0,0,0,0.91);
+    font-size: 20px;
 }
 .pie{
     position: absolute;
@@ -37,94 +46,26 @@ h1{
 .htmlbody1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-left: 50px;
 }
 .htmlbody1 div{
     float: left;
     width: 300px;
     height: 200px;
 }
-/*.tenerife{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-}
-*/
-.imgtenerife{
-    width: 200px;
-    height: 200px;
-}
-/*
-.grancan{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 320px;
-}
-*/
-
-.imggrancanaria{
-    width: 200px;
-    height: 200px;
-}
-/*
-.lapalma{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 640px;
-}
-*/
-.imglapalma{
-    width: 200px;
-    height: 200px;
-}
-/*
-.lanzarote{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 960px;
-}
-*/
-.imglanzarote{
-    width: 300px;
-    height: 300px;;
-}
 .htmlbody2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    width: 1000px;
+    height: 300px;
     position: relative;
-    margin-top: 470px;
+    top: -10px;
+    left: 130px;
+}
+.htmlbody2 div{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     margin-left: 160px;
     float: left;
-}
-.fuerteventura{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    }
-.imgfuerteventura{
-    width: 300px;
-    height: 300px;
-}
-.lagomera{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 320px;
-    }
-.imglagomera{
-    width: 300px;
-    height: 300px;
-}
-.elhierro{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    margin-left: 640px;
-    }
-.imgelhierro{
-    width: 300px;
-    height: 300px;
 }
