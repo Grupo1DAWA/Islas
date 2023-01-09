@@ -1,0 +1,25 @@
+body{
+    color: white;
+    background-image: url(imghierro/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.top{
+    text-align: center;
+}
+
+
+
+.Comida1{
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+    
+}
+.Comida2{
+    position: absolute;
+    float: left;
+    width: 400px;
+    margin-left: 50px;
+}
