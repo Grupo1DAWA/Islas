@@ -1,6 +1,8 @@
-.fondo{
-    background-image: url(/foncomi/fon.jpg) no-repeat;
+body{
+    background-image: url(foncomi/fon.jpg);
+    background-repeat:no-repeat;
     overflow: hidden;
+    background-size: cover;
 }
 .fondito{
     position: absolute;
