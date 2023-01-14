@@ -43,29 +43,31 @@ h3{
     bottom: 0;
     left: 0;
 }
-.htmlbody1{
+
+.htmlbody1 div{
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 120px;
-    margin-left: 50px;
-}
-.htmlbody1 div{
+    margin-top: 250px;
     float: left;
-    width: 300px;
-    height: 200px;
+    margin-left: 300px;
+    top: 200px;
 }
+
 .htmlbody2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 1000px;
+    width: 1500px;
     height: 300px;
-    position: relative;
-    top: -10px;
+    position: absolute;
+    top: 600px;
     left: 130px;
 }
 .htmlbody2 div{
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 300px;
     float: left;
+    top: 200px;
 }
