@@ -45,6 +45,7 @@ h3{
 }
 
 .htmlbody1 div{
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 250px;
