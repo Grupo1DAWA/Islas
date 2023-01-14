@@ -1,25 +1,151 @@
+
 body{
     color: white;
-    background-image: url(imghierro/Background.jpg);
+    background-image: 
+    url(imghierro/Background.jpg),url(imghierro/Background3.jpg);
+    background-repeat:no-repeat,repeat,repeat;
+    background-size: contain;
+    margin:0}
+
+h1{
+    text-align: center;
+    font-size: 10em;
+    color: rgb(180, 163, 136);
+    
+    text-shadow: 3px 3px 2px rgb(129, 111, 83);
+}
+
+.titulo p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -130px;
+  color: rgb(180, 163, 136);
+ 
+}
+h2{
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(57, 111, 192);
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    text-shadow: 1px 1px 2px black;
+  }
+    
+h3{
+  text-align:center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+}
+nav{
+    background-color: rgb(57, 111, 192);
+    display: inline-block;
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;}
+
+nav div#nombre{
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .Comidas{
+    
+    background-image: url(imghierro/Background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+    
+  }
+  
+.Comidas img{
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(57, 111, 192);
+    width: 25em;
+    height: 25em;
+    margin-bottom: 20px;
+    margin-left: 5em;}
+
+    
+    
+.Comidas h3{
+    margin-left: 4em;
+    max-width: 20em;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color:rgb(57, 111, 192) ;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    text-shadow: 1px 1px 2px black;
+  
+
+}
+
+.Comidas p{
+    color: white;
+    padding: 25px;
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -1em;
+    font-size: 25px;
+    margin-left: 8em;
+    margin-right: 8em;
+    position:static;
+    background-color:rgb(57, 111, 192, 85%);
+    text-shadow: 1px 1px 2px black;}
+    
+   .lugares{
+    margin-top: -40px;
+    background-image: url(imghierro/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-.top{
-    text-align: center;
-}
-
-
-
-.Comida1{
-    position: absolute;
-    float: left;
-    margin-left: 50px;
-    
-}
-.Comida2{
-    position: absolute;
-    float: left;
-    width: 400px;
-    margin-left: 50px;
-}
+   }
+    .lugares img{
+      border-radius: 50px;
+      border-style: solid;
+      border-width: 4px;
+      border-color: rgb(57, 111, 192);
+      width: 25em;
+      height: 25em;
+      margin-bottom: 20px;
+      margin-right: 5em;
+      
+    }
+      .lugares p{
+        color: white;
+        padding: 25px;
+        border-radius: 40px;
+        border-color: white;
+        border-style: solid;
+        border-width: 5px;
+        margin-top: -1em;
+        font-size: 25px;
+        margin-left: 8em;
+        margin-right: 8em;
+        position:static;
+        background-color:rgb(57, 111, 192, 85%);
+        text-shadow: 1px 1px 2px black;}
+        .lugares h3{
+          margin-left: 0.5em;
+          max-width: 20em;
+          text-align: center;
+          margin-top: -10px;
+          font-size: 20px;
+          border-radius: 40px;
+          background-color:rgb(57, 111, 192) ;
+          border-color: white;
+          border-style: solid;
+          border-width: 2px;
+          text-shadow: 1px 1px 2px black;}
+          
