@@ -28,6 +28,7 @@ nav .menu{
 .menu div a{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  font-size:larger;
   color: white;
   display: block;
   height: 35px;
