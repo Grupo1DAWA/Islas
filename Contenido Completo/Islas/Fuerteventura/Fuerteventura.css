@@ -13,7 +13,7 @@ p{
 }
 nav .menu{
     height: 50px;
-    width: 3000px;
+    width: 83%;
     border: none;
     margin-left: 240px;
     text-align: center;
@@ -136,8 +136,8 @@ nav div#nombre{
 }
     
 .lugares{
-    margin-top: -40px;
-    background-image: url(imghierro/background3.jpg);
+    margin-top: -45px;
+    background-image: url(imgfuerteven/fondo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
