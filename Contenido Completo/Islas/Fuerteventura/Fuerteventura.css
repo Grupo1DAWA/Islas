@@ -3,8 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-image: 
-    url(imgfuerteven/fondo1.jpg),url(imgfuerteven/fondo2.jpg);
-    background-repeat:no-repeat,repeat;
+    url(imgfuerteven/fondo1.jpg);
+    background-repeat:no-repeat;
     background-size: contain;
     margin:0
 }
@@ -87,12 +87,12 @@ nav div#nombre{
     text-shadow: 1px 1px 2px black;
 }
 
-  .Comidas{
-    background-image: url(imghierro/Background2.jpg);
+.Comidas{
+    background-image: url(imgfuerteven/fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-  }
+}
   
 .Comidas img{
     border-radius: 50px;
