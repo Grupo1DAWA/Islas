@@ -2,11 +2,11 @@
     height: 50px;
     width: 734px;
     border: none;
+    text-align: center;
 
 }
 
 div{
-    text-align: center;
     background-color: blue;
     height: 50px;
     width: 100px;
