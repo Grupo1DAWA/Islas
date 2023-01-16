@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-image: 
-    url(imghierro/Background.jpg);
+    url(imgGomera/Background.jpg);
     background-repeat:no-repeat;
     background-size: contain;
     margin:0
@@ -12,16 +12,15 @@ body{
     font-size:x-large;
   }
   nav .menu{
-    height: 50px;
-    width: 83%;
+    height: 20px;
+    width: 120%;
     border: none;
-    margin-left: 240px;
     text-align: center;
   }
   .menu div{
-    background-color: rgb(134, 134, 255);
+    background-color: rgb(57, 111, 192);
     height: 50px;
-    width: 300px;
+    width: 12%;
     float: left;
     overflow: hidden;
   }
@@ -37,8 +36,8 @@ body{
     transition: 300ms all linear;
   }
   a:hover{
-    background-color: rgb(85, 85, 240);
-    background-color: rgb(57, 111, 192);
+    
+    background-color: rgb(35, 67, 114);
     color: burlywood;
     text-shadow: 0px 1px 1px #333, 1px 1px 1px #333, 1px 2px 1px #333, 2px 2px 1px #333;
   }
@@ -47,6 +46,7 @@ body{
     font-size: 10em;
     color: rgb(180, 163, 136);
     text-shadow: 3px 3px 2px rgb(129, 111, 83);
+    
   }
   
   .titulo p{
@@ -54,7 +54,7 @@ body{
     font-size: 30px;
     margin-top: -130px;
     color: rgb(180, 163, 136);
-   
+    text-shadow: 1px 1px 2px black;
   }
   
   h2{
@@ -85,11 +85,11 @@ body{
   
   nav div#nombre{
     text-align: center;
-    text-shadow: 1px 1px 2px black;
+      
   }
   
   .Comidas{
-    background-image: url(imghierro/Background2.jpg);
+    background-image: url(imgGomera/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -138,7 +138,7 @@ body{
       
   .lugares{
     margin-top: -40px;
-    background-image: url(imghierro/background3.jpg);
+    background-image: url(imgGomera/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
   }
