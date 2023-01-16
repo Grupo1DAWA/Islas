@@ -13,15 +13,14 @@ p{
 }
 nav .menu{
   height: 50px;
-  width: 83%;
+  width: 120%;
   border: none;
-  margin-left: 240px;
   text-align: center;
 }
 .menu div{
   background-color: rgb(134, 134, 255);
   height: 50px;
-  width: 300px;
+  width: 12%;
   float: left;
   overflow: hidden;
 }
